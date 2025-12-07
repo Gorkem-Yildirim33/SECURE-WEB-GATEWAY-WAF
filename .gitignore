@@ -1,0 +1,46 @@
+# --- İşletim Sistemi Dosyaları ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE ve Editörler (VS Code, IntelliJ, Vim vb.) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# --- Log Dosyaları (ÖNEMLİ) ---
+# logs klasörünün kendisi kalsın ama içindeki dosyalar gönderilmesin
+logs/*
+!logs/.gitkeep
+# Sistem genelinde oluşan diğer loglar
+*.log
+access.log
+error.log
+
+# --- Güvenlik ve Sertifikalar (ÇOK ÖNEMLİ) ---
+# SSL Private Key ve Sertifikalar asla repoya atılmamalıdır
+*.key
+*.pem
+*.crt
+*.csr
+*.pfx
+*.p12
+# Eğer 'ssl' veya 'certs' diye özel bir klasör açarsan:
+ssl/
+certs/
+
+# --- Nginx ve Sistem Geçici Dosyaları ---
+*.pid
+nginx.conf.compiled
+
+# --- Docker ---
+# Sadece localde kullanılan override dosyaları
+docker-compose.override.yml
+
+# --- Test ve Geçici Çıktılar ---
+temp/
+tmp/
+debug_output.txt
