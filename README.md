@@ -91,7 +91,9 @@ HTTP (Port 80) trafiği otomatik olarak HTTPS (Port 443)'e yönlendirilir (301 R
 Backend sunuculara X-Forwarded-For ve Host başlıkları doğru şekilde iletilir.
 
 ⚖️ Lisans
-Bu proje MIT Lisansı ile sunulmaktadır.
+Bu proje MIT Lisansı altında lisanslanmıştır.
+
+Gerekçe: Bu proje; eğitim, geliştirme ve güvenlik araştırmaları amacıyla açık kaynak olarak sunulmuştur. MIT lisansı, kullanıcıların bu kodları özgürce inceleyebilmesini, değiştirebilmesini ve herhangi bir kısıtlama olmaksızın kendi projelerinde kullanabilmesini sağlar. Ayrıca, güvenlik yazılımlarının doğası gereği kritik olan sorumluluk reddi (liability protection) korumasını geliştiriciye sağlar.
 
 Gerekçe: Projenin eğitim ve açık kaynak dünyasında özgürce kullanılabilmesi, değiştirilebilmesi ve sorumluluk reddi (liability) koruması sağlaması nedeniyle senaryoya en uygun lisans olarak seçilmiştir.
 
